@@ -5,6 +5,13 @@ import java.util.concurrent.ThreadLocalRandom;
 public class ProcessoSeletivo {
 		public static void main(String[] args) {
 		}
+		
+		static void imprimirSelecionados() {
+			String [] candidatos = {"FELIPE","MARCIA","JULIA","PAULO","AUGUSTO"};
+		}
+		
+		
+		
 		static void selecaoCandidatos () {
 			String [] candidatos = {"FELIPE", "MARCIA","JULIA","PAULO","AUGUSTO","MONICA","FABRICIO","MIRELA","DANIELA","JORGE"};
 			
