@@ -23,6 +23,10 @@ public class ProcessoSeletivo {
 					System.out.println("CONTATO REALIZADO COM SUCESSO");
 				
 			}while(continuarTentando && tentativasRealizadas<3);
+			if(atendeu)
+				System.out.println("CONSEGUIMOS CONTATO COM " + candidato + " NA " + tentativasRealizadas + " TENTATIVA");
+			else
+				System.out.println("NÃO CONSEGUIMOS CONTATO COM " + candidato + ", NUMERO MAXIMO TENTATIVAS " + tentativasRealizadas);
 		}
 		
 		//método auxiliar
