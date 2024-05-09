@@ -7,8 +7,11 @@ public class ProcessoSeletivo {
 		public static void main(String[] args) {
 			String [] candidatos = { "FELIPE", "MARCIA","JULIA","PAULO","AUGUSTO"};
 			for(String candidato: candidatos) {
-				
+				entrandoEmContato(candidato);
 			}
+		}
+		static void entrandoEmContato(String candidato) {
+			int tentativasRealizadas = 1;
 		}
 		
 		//método auxiliar
