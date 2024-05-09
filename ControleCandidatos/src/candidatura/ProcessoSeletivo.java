@@ -15,6 +15,10 @@ public class ProcessoSeletivo {
 			for(int indice=0; indice < candidatos.length;indice++) {
 				System.out.println("O candidato de n* " + (indice+1) + " é " + candidatos[indice]);
 			}
+			System.out.println("Forma abreviada de interação for each");
+			for(String candidato: candidatos ) {
+				System.out.println("O candidato selecionado foi " + candidato);
+			}
 		}
 		
 		
