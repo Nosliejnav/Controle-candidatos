@@ -12,6 +12,11 @@ public class ProcessoSeletivo {
 		}
 		static void entrandoEmContato(String candidato) {
 			int tentativasRealizadas = 1;
+			boolean continuarTentando = true;
+			boolean atender = false;
+			do {
+				
+			}while(continuarTentando && tentativasRealizadas<3);
 		}
 		
 		//método auxiliar
